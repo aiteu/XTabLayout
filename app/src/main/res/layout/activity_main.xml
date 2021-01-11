@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aiteu.android.demo.MainActivity">
+
+    <com.aiteu.android.xtablayout.XTabLayout
+        android:id="@+id/tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:xtl_textSelectColor="@color/colorAccent"
+        app:xtl_textUnSelectColor="@color/colorPrimary"
+        app:xtl_textSelectSize="18sp"
+        app:xtl_textSize="14sp"
+        app:xtl_indicatorColor="@color/colorAccent"
+        app:xtl_indicatorWidth="20dip"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

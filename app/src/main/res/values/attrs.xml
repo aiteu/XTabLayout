@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XTabLayout">
+        <attr name="xtl_textSize" format="dimension" />
+        <attr name="xtl_textSelectSize" format="dimension" />
+        <attr name="xtl_textSelectColor" format="color" />
+        <attr name="xtl_textUnSelectColor" format="color" />
+        <attr name="xtl_tabPadding" format="dimension" />
+        <attr name="xtl_textAllCaps" format="boolean" />
+        <attr name="xtl_textBold" format="boolean" />
+        <attr name="xtl_indicatorStyle" format="integer" />
+        <attr name="xtl_indicatorColor" format="color" />
+        <attr name="xtl_indicatorHeight" format="dimension" />
+        <attr name="xtl_indicatorWidth" format="dimension" />
+        <attr name="xtl_indicatorCornerRadius" format="dimension" />
+        <attr name="xtl_indicatorMarginLeft" format="dimension" />
+        <attr name="xtl_indicatorMarginRight" format="dimension" />
+        <attr name="xtl_indicatorMarginTop" format="dimension" />
+        <attr name="xtl_indicatorMarginBottom" format="dimension" />
+        <attr name="xtl_indicatorWidthEqualTitle" format="boolean" />
+        <attr name="xtl_indicatorGravity" format="reference">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
